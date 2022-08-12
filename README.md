@@ -11,3 +11,9 @@ The views are also built via [**Jetpack Compose**](https://developer.android.com
 
 The API in question is from [Alpha Vantage](https://www.alphavantage.co/documentation/#), which provides a free api upon request limited to about 5 calls per minute. As such, the API key is not hidden
 and allows anyone who forks this to demonstrate these libraries and principles without having to create an account. 
+
+There are however, a few issues if one were to decide to make this into an actual app.
+* Testing will be hard since we are using extension functions instead of a dependency for Data Mapper.
+* We lose dependency inversion
+* Repo needs to be recompiled if we change the mapping
+* Will not work atop existing legacy Java code which means less reusability since we are using extension functions.
