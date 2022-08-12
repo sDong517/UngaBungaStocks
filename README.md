@@ -3,7 +3,7 @@ https://user-images.githubusercontent.com/77254935/184424655-6eb449f3-5e97-4601-
 
 # UngaBungaStocks
 
-UngaBungaStocks is a stock finder app used to showcase the [Clean](https://medium.com/android-dev-hacks/detailed-guide-on-android-clean-architecture-9eab262a9011) architectural guidelines with [SOLID](https://medium.com/android-news/android-development-the-solid-principles-3b5779b105d2) design principle by separating the application into *data*, *domain*, and *presentation*.
+UngaBungaStocks is a stock finder app built in Kotlin used to showcase the [Clean](https://medium.com/android-dev-hacks/detailed-guide-on-android-clean-architecture-9eab262a9011) architectural guidelines with [SOLID](https://medium.com/android-news/android-development-the-solid-principles-3b5779b105d2) design principle. This is done by separating the application into *data*, *domain*, and *presentation*.
 This allows for clean code visually and physically as the separation of business logic allows for more flexibility. 
 
 It also utilizes dependency injection with [**Dagger-Hilt**](https://dagger.dev/hilt/), networking with [**Retrofit**](https://square.github.io/retrofit/), and local caching with [**Room**](https://developer.android.com/jetpack/androidx/releases/room). 
